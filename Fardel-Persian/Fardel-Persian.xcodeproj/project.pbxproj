@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD2723F46E47653C93717FD /* Pods_Fardel_Persian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DDF2BBAFC811B543BB826 /* Pods_Fardel_Persian.framework */; };
+		CE65C4DE2101D95C0059949C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65C4DD2101D95C0059949C /* WebKit.framework */; };
+		CE9B9CEE20F2AFF00034E550 /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9CED20F2AFF00034E550 /* EditProfileController.swift */; };
+		CEA11CC3210B6E5600524D10 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA11CC2210B6E5600524D10 /* HeaderCell.swift */; };
+		CEA4DA8D20FC91AF00F02435 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4DA8C20FC91AF00F02435 /* DateHelper.swift */; };
+		CEAE324A20F0CB74002CF64A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE324920F0CB74002CF64A /* Settings.swift */; };
+		CEB16A5D210A39DD00DD35E6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB16A5C210A39DD00DD35E6 /* Product.swift */; };
+		CEB16A60210A3A0900DD35E6 /* VariantAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB16A5E210A3A0900DD35E6 /* VariantAttribute.swift */; };
+		CEB16A61210A3A0900DD35E6 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB16A5F210A3A0900DD35E6 /* Variant.swift */; };
+		CEB16A63210A413E00DD35E6 /* SummerizedProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB16A62210A413E00DD35E6 /* SummerizedProduct.swift */; };
+		CEB16A65210A461B00DD35E6 /* SummerizedProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB16A64210A461B00DD35E6 /* SummerizedProductCell.swift */; };
+		CEB9158B21007367002A37EE /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9158A21007367002A37EE /* PostController.swift */; };
+		CEBA7B9D210FA52F00EB41C6 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA7B9C210FA52F00EB41C6 /* ProductController.swift */; };
+		CEBA7B9F210FA93000EB41C6 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA7B9E210FA93000EB41C6 /* ImageCell.swift */; };
+		CEC1428A20FBD57600ECC8D3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1428920FBD57600ECC8D3 /* HomeController.swift */; };
+		CEC1428C20FBD6EF00ECC8D3 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1428B20FBD6EF00ECC8D3 /* HomeCell.swift */; };
+		CEC1428E20FBE04100ECC8D3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1428D20FBE04100ECC8D3 /* Post.swift */; };
+		CECCDCB720EE1A4C00E75CE8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCDCB620EE1A4C00E75CE8 /* Extensions.swift */; };
+		CEDA32AF20ED5FDB0013A50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32AE20ED5FDB0013A50A /* AppDelegate.swift */; };
+		CEDA32B120ED5FDB0013A50A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32B020ED5FDB0013A50A /* TabBarController.swift */; };
+		CEDA32B420ED5FDB0013A50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA32B220ED5FDB0013A50A /* Main.storyboard */; };
+		CEDA32B620ED5FDC0013A50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA32B520ED5FDC0013A50A /* Assets.xcassets */; };
+		CEDA32B920ED5FDC0013A50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA32B720ED5FDC0013A50A /* LaunchScreen.storyboard */; };
+		CEDA32CB20ED6DB50013A50A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32CA20ED6DB50013A50A /* ProfileController.swift */; };
+		CEDA32CD20ED6E1A0013A50A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32CC20ED6E1A0013A50A /* LoginController.swift */; };
+		CEDA32CF20ED6E4B0013A50A /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32CE20ED6E4B0013A50A /* RegisterController.swift */; };
+		CEDA32D120ED6EE80013A50A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32D020ED6EE80013A50A /* Configuration.swift */; };
+		CEDA32D320ED6F200013A50A /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32D220ED6F200013A50A /* APIUrls.swift */; };
+		CEDA32D520ED6FDB0013A50A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA32D420ED6FDB0013A50A /* APIService.swift */; };
+		CEDE927E2103A07500AFFFB3 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE927D2103A07500AFFFB3 /* ShopController.swift */; };
+		CEDE92802103BC2200AFFFB3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE927F2103BC2200AFFFB3 /* Category.swift */; };
+		CEE01BC0210DC3D00043F0D8 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE01BBF210DC3D00043F0D8 /* ProductType.swift */; };
+		CEE01BC2210DC9D30043F0D8 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE01BC1210DC9D30043F0D8 /* Attribute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F747C48467E2ED95CA7DFA9 /* Pods-Fardel-Persian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fardel-Persian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fardel-Persian/Pods-Fardel-Persian.release.xcconfig"; sourceTree = "<group>"; };
+		981DDF2BBAFC811B543BB826 /* Pods_Fardel_Persian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fardel_Persian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE65C4DD2101D95C0059949C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CE9B9CED20F2AFF00034E550 /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		CEA11CC2210B6E5600524D10 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CEA4DA8C20FC91AF00F02435 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		CEAE324920F0CB74002CF64A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CEB16A5C210A39DD00DD35E6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CEB16A5E210A3A0900DD35E6 /* VariantAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantAttribute.swift; sourceTree = "<group>"; };
+		CEB16A5F210A3A0900DD35E6 /* Variant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		CEB16A62210A413E00DD35E6 /* SummerizedProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerizedProduct.swift; sourceTree = "<group>"; };
+		CEB16A64210A461B00DD35E6 /* SummerizedProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerizedProductCell.swift; sourceTree = "<group>"; };
+		CEB9158A21007367002A37EE /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		CEBA7B9C210FA52F00EB41C6 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		CEBA7B9E210FA93000EB41C6 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		CEC1428920FBD57600ECC8D3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		CEC1428B20FBD6EF00ECC8D3 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CEC1428D20FBE04100ECC8D3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CECCDCB620EE1A4C00E75CE8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CEDA32AB20ED5FDB0013A50A /* Fardel-Persian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fardel-Persian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA32AE20ED5FDB0013A50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDA32B020ED5FDB0013A50A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CEDA32B320ED5FDB0013A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDA32B520ED5FDC0013A50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA32B820ED5FDC0013A50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDA32BA20ED5FDC0013A50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA32CA20ED6DB50013A50A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		CEDA32CC20ED6E1A0013A50A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CEDA32CE20ED6E4B0013A50A /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		CEDA32D020ED6EE80013A50A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		CEDA32D220ED6F200013A50A /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
+		CEDA32D420ED6FDB0013A50A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CEDE927D2103A07500AFFFB3 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		CEDE927F2103BC2200AFFFB3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CEE01BBF210DC3D00043F0D8 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		CEE01BC1210DC9D30043F0D8 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		E7BFEF8F447EE7DCDBB94AAB /* Pods-Fardel-Persian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fardel-Persian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fardel-Persian/Pods-Fardel-Persian.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA32A820ED5FDB0013A50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE65C4DE2101D95C0059949C /* WebKit.framework in Frameworks */,
+				5AD2723F46E47653C93717FD /* Pods_Fardel_Persian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD108DDCDE80F8D914B61CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE65C4DD2101D95C0059949C /* WebKit.framework */,
+				981DDF2BBAFC811B543BB826 /* Pods_Fardel_Persian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AA1D7EA5B6749B669302AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BFEF8F447EE7DCDBB94AAB /* Pods-Fardel-Persian.debug.xcconfig */,
+				6F747C48467E2ED95CA7DFA9 /* Pods-Fardel-Persian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEB9158921007324002A37EE /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9158A21007367002A37EE /* PostController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		CEBA7B9B210FA51200EB41C6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA7B9C210FA52F00EB41C6 /* ProductController.swift */,
+				CEBA7B9E210FA93000EB41C6 /* ImageCell.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CECCDCB520EE1A2200E75CE8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CECCDCB620EE1A4C00E75CE8 /* Extensions.swift */,
+				CEA4DA8C20FC91AF00F02435 /* DateHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CEDA32A220ED5FDB0013A50A = {
+			isa = PBXGroup;
+			children = (
+				CEDA32AD20ED5FDB0013A50A /* Fardel-Persian */,
+				CEDA32AC20ED5FDB0013A50A /* Products */,
+				84AA1D7EA5B6749B669302AE /* Pods */,
+				2CD108DDCDE80F8D914B61CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA32AC20ED5FDB0013A50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32AB20ED5FDB0013A50A /* Fardel-Persian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA32AD20ED5FDB0013A50A /* Fardel-Persian */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32C020ED600B0013A50A /* Model */,
+				CEDA32C120ED60140013A50A /* View */,
+				CEDA32C220ED601C0013A50A /* Controller */,
+				CECCDCB520EE1A2200E75CE8 /* Utilities */,
+				CEDA32C320ED608C0013A50A /* Supporting Files */,
+				CEDA32C420ED61140013A50A /* Storyboards */,
+				CEDA32BA20ED5FDC0013A50A /* Info.plist */,
+				CEDA32B520ED5FDC0013A50A /* Assets.xcassets */,
+			);
+			path = "Fardel-Persian";
+			sourceTree = "<group>";
+		};
+		CEDA32C020ED600B0013A50A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB16A5F210A3A0900DD35E6 /* Variant.swift */,
+				CEB16A5E210A3A0900DD35E6 /* VariantAttribute.swift */,
+				CEC1428D20FBE04100ECC8D3 /* Post.swift */,
+				CEDE927F2103BC2200AFFFB3 /* Category.swift */,
+				CEB16A5C210A39DD00DD35E6 /* Product.swift */,
+				CEB16A62210A413E00DD35E6 /* SummerizedProduct.swift */,
+				CEE01BBF210DC3D00043F0D8 /* ProductType.swift */,
+				CEE01BC1210DC9D30043F0D8 /* Attribute.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDA32C120ED60140013A50A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32C520ED6CCD0013A50A /* TabBar */,
+				CEDA32C620ED6CE60013A50A /* Home */,
+				CEDE927C2103A04700AFFFB3 /* Shop */,
+				CEDA32C720ED6D2C0013A50A /* Profile */,
+				CEDA32C820ED6D530013A50A /* Login */,
+				CEDA32C920ED6D5A0013A50A /* Register */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDA32C220ED601C0013A50A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32AE20ED5FDB0013A50A /* AppDelegate.swift */,
+				CEDA32D020ED6EE80013A50A /* Configuration.swift */,
+				CEDA32D220ED6F200013A50A /* APIUrls.swift */,
+				CEDA32D420ED6FDB0013A50A /* APIService.swift */,
+				CEAE324920F0CB74002CF64A /* Settings.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEDA32C320ED608C0013A50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDA32C420ED61140013A50A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32B720ED5FDC0013A50A /* LaunchScreen.storyboard */,
+				CEDA32B220ED5FDB0013A50A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CEDA32C520ED6CCD0013A50A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32B020ED5FDB0013A50A /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CEDA32C620ED6CE60013A50A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1428920FBD57600ECC8D3 /* HomeController.swift */,
+				CEC1428B20FBD6EF00ECC8D3 /* HomeCell.swift */,
+				CEB9158921007324002A37EE /* Post */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEDA32C720ED6D2C0013A50A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32CA20ED6DB50013A50A /* ProfileController.swift */,
+				CE9B9CED20F2AFF00034E550 /* EditProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEDA32C820ED6D530013A50A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32CC20ED6E1A0013A50A /* LoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CEDA32C920ED6D5A0013A50A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA32CE20ED6E4B0013A50A /* RegisterController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		CEDE927C2103A04700AFFFB3 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE927D2103A07500AFFFB3 /* ShopController.swift */,
+				CEB16A64210A461B00DD35E6 /* SummerizedProductCell.swift */,
+				CEA11CC2210B6E5600524D10 /* HeaderCell.swift */,
+				CEBA7B9B210FA51200EB41C6 /* Product */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA32AA20ED5FDB0013A50A /* Fardel-Persian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA32BD20ED5FDC0013A50A /* Build configuration list for PBXNativeTarget "Fardel-Persian" */;
+			buildPhases = (
+				411FE9FC6BBA8C68B2977201 /* [CP] Check Pods Manifest.lock */,
+				CEDA32A720ED5FDB0013A50A /* Sources */,
+				CEDA32A820ED5FDB0013A50A /* Frameworks */,
+				CEDA32A920ED5FDB0013A50A /* Resources */,
+				684F608993874653FAAD9FED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fardel-Persian";
+			productName = "Fardel-Persian";
+			productReference = CEDA32AB20ED5FDB0013A50A /* Fardel-Persian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA32A320ED5FDB0013A50A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mahdi;
+				TargetAttributes = {
+					CEDA32AA20ED5FDB0013A50A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = CEDA32A620ED5FDB0013A50A /* Build configuration list for PBXProject "Fardel-Persian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA32A220ED5FDB0013A50A;
+			productRefGroup = CEDA32AC20ED5FDB0013A50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA32AA20ED5FDB0013A50A /* Fardel-Persian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA32A920ED5FDB0013A50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA32B920ED5FDC0013A50A /* LaunchScreen.storyboard in Resources */,
+				CEDA32B620ED5FDC0013A50A /* Assets.xcassets in Resources */,
+				CEDA32B420ED5FDB0013A50A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		411FE9FC6BBA8C68B2977201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fardel-Persian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684F608993874653FAAD9FED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fardel-Persian/Pods-Fardel-Persian-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/SHSearchBar/SHSearchBar.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableSegmentedControl/ScrollableSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHSearchBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fardel-Persian/Pods-Fardel-Persian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA32A720ED5FDB0013A50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB16A63210A413E00DD35E6 /* SummerizedProduct.swift in Sources */,
+				CEB16A5D210A39DD00DD35E6 /* Product.swift in Sources */,
+				CEA4DA8D20FC91AF00F02435 /* DateHelper.swift in Sources */,
+				CEDA32D120ED6EE80013A50A /* Configuration.swift in Sources */,
+				CEA11CC3210B6E5600524D10 /* HeaderCell.swift in Sources */,
+				CEBA7B9F210FA93000EB41C6 /* ImageCell.swift in Sources */,
+				CEE01BC0210DC3D00043F0D8 /* ProductType.swift in Sources */,
+				CEDA32CF20ED6E4B0013A50A /* RegisterController.swift in Sources */,
+				CEDA32B120ED5FDB0013A50A /* TabBarController.swift in Sources */,
+				CEDA32CD20ED6E1A0013A50A /* LoginController.swift in Sources */,
+				CEDE92802103BC2200AFFFB3 /* Category.swift in Sources */,
+				CEBA7B9D210FA52F00EB41C6 /* ProductController.swift in Sources */,
+				CE9B9CEE20F2AFF00034E550 /* EditProfileController.swift in Sources */,
+				CEC1428E20FBE04100ECC8D3 /* Post.swift in Sources */,
+				CEDE927E2103A07500AFFFB3 /* ShopController.swift in Sources */,
+				CEAE324A20F0CB74002CF64A /* Settings.swift in Sources */,
+				CEC1428C20FBD6EF00ECC8D3 /* HomeCell.swift in Sources */,
+				CEB16A61210A3A0900DD35E6 /* Variant.swift in Sources */,
+				CEB9158B21007367002A37EE /* PostController.swift in Sources */,
+				CECCDCB720EE1A4C00E75CE8 /* Extensions.swift in Sources */,
+				CEDA32AF20ED5FDB0013A50A /* AppDelegate.swift in Sources */,
+				CEC1428A20FBD57600ECC8D3 /* HomeController.swift in Sources */,
+				CEDA32CB20ED6DB50013A50A /* ProfileController.swift in Sources */,
+				CEDA32D520ED6FDB0013A50A /* APIService.swift in Sources */,
+				CEB16A60210A3A0900DD35E6 /* VariantAttribute.swift in Sources */,
+				CEB16A65210A461B00DD35E6 /* SummerizedProductCell.swift in Sources */,
+				CEE01BC2210DC9D30043F0D8 /* Attribute.swift in Sources */,
+				CEDA32D320ED6F200013A50A /* APIUrls.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDA32B220ED5FDB0013A50A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA32B320ED5FDB0013A50A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDA32B720ED5FDC0013A50A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA32B820ED5FDC0013A50A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA32BB20ED5FDC0013A50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA32BC20ED5FDC0013A50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDA32BE20ED5FDC0013A50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BFEF8F447EE7DCDBB94AAB /* Pods-Fardel-Persian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL5332J565;
+				INFOPLIST_FILE = "Fardel-Persian/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mahdi.Fardel-Persian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDA32BF20ED5FDC0013A50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F747C48467E2ED95CA7DFA9 /* Pods-Fardel-Persian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL5332J565;
+				INFOPLIST_FILE = "Fardel-Persian/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mahdi.Fardel-Persian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA32A620ED5FDB0013A50A /* Build configuration list for PBXProject "Fardel-Persian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA32BB20ED5FDC0013A50A /* Debug */,
+				CEDA32BC20ED5FDC0013A50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA32BD20ED5FDC0013A50A /* Build configuration list for PBXNativeTarget "Fardel-Persian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA32BE20ED5FDC0013A50A /* Debug */,
+				CEDA32BF20ED5FDC0013A50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA32A320ED5FDB0013A50A /* Project object */;
+}

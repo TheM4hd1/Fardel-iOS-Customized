@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.7.3)
+  - KeychainSwift (11.0.0)
+  - Kingfisher (4.8.1)
+  - MaterialComponents/ActivityIndicator (59.0.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/Palettes (59.0.0)
+  - MaterialComponents/private/Application (59.0.0)
+  - MDFInternationalization (1.0.4)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - ScrollableSegmentedControl (1.3.0)
+  - SHSearchBar (1.4.3)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - KeychainSwift
+  - Kingfisher
+  - MaterialComponents/ActivityIndicator
+  - ScrollableSegmentedControl
+  - SHSearchBar
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - KeychainSwift
+    - Kingfisher
+    - MaterialComponents
+    - MDFInternationalization
+    - MotionAnimator
+    - MotionInterchange
+    - ScrollableSegmentedControl
+    - SHSearchBar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  MaterialComponents: 3607dd0e952af5c0254798758b6944712465243f
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  ScrollableSegmentedControl: a90ae91537fd670a46b177301d035223e3bd149e
+  SHSearchBar: 3baed40087fe5501c904763a34a6a69f851e906b
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 678923f1785ee2dbd992eb7ac366e0ad062d542d
+
+COCOAPODS: 1.5.3
